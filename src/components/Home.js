@@ -3,7 +3,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchCountries } from '../redux/Home/homeSlice';
 import filterCountries from './FilterCountries';
+import styles from './Home.module.css';
 import Navbar from './HomeNavbar';
+import img from '../img/Global-Map-Transparent-700x416.png';
 
 const Home = () => {
   const {
@@ -23,36 +25,51 @@ const Home = () => {
 
   if (isLoading) {
     return (
-      <p>Loading...</p>
+      <p className={styles.loading}>Loading...</p>
     );
   }
 
   return (
     <div className="home">
       <Navbar setSearch={setSearch} />
-      <div>
-        <p>LIST OF COUNTRIES</p>
+      <div className={styles.divheader}>
+        <div className={styles.divtitle}>
+          <div className={styles.imageContainer}>
+            <img src={img} alt="" />
+          </div>
+          <div className={styles.textContainer}>
+            <h1>
+              COUNTRIES AROUND
+              <br />
+              THE WORLD
+            </h1>
+          </div>
+        </div>
+
       </div>
-      <ul>
+      <div className={styles.separator}>
+        <p className={styles.septext}>LIST OF COUNTRIES</p>
+      </div>
+      <ul className={styles.ulCountries}>
         {filteredCountries.map((country) => (
-          <Link key={country.name.common} to={`/Details/${country.name.common}`}>
-            <li key={country.name.common}>
-              <span className="material-symbols-outlined">
+          <Link key={country.name.common} className={styles.link} to={`/Details/${country.name.common}`}>
+            <li key={country.name.common} className={styles.liCountry}>
+              <span className={`material-symbols-outlined ${styles.arrowCircleRight}`}>
                 arrow_circle_right
               </span>
-              <div>
+              <div className={styles.countryImage}>
                 <img src={country.flags.png} alt={country.flags.alt} />
               </div>
-              <div>
-                <p>
+              <div className={styles.countryDetails}>
+                <p className={styles.liname}>
                   {country.name.common}
                 </p>
-                <p>
+                <p className={styles.licood}>
                   LAT:
                   {' '}
                   {country.latlng[0]}
                 </p>
-                <p>
+                <p className={styles.licood}>
                   LONG:
                   {' '}
                   {country.latlng[1]}

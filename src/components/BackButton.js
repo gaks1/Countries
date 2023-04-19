@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './BackButton.module.css';
 
 const BackButton = () => {
   const goBack = () => {
@@ -6,7 +7,7 @@ const BackButton = () => {
   };
 
   return (
-    <button type="button" onClick={goBack}>
+    <button className={styles.button} type="button" onClick={goBack}>
       <span className="material-symbols-outlined">
         arrow_back_ios
       </span>

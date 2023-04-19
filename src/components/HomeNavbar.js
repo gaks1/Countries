@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import styles from './HomeNavbar.module.css';
 
 const Navbar = ({ setSearch }) => {
   const [input, showInput] = useState(false);
@@ -10,23 +11,23 @@ const Navbar = ({ setSearch }) => {
   };
 
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <div>
-        <NavLink to="/">Countries</NavLink>
+        <NavLink className={styles.links} to="/">Countries</NavLink>
       </div>
-      <div>
-        <div>
+      <div className={styles.header}>
+        <div className={styles.headerbutton}>
           <button type="button" onClick={handleChange}>
             <span className="material-symbols-outlined">
               {input ? 'close' : 'search'}
             </span>
           </button>
           {input && (
-          <input
-            type="text"
-            placeholder="Search"
-            onChange={(e) => setSearch(e.target.value)}
-          />
+            <input
+              type="text"
+              placeholder="Search"
+              onChange={(e) => setSearch(e.target.value)}
+            />
           )}
         </div>
       </div>
