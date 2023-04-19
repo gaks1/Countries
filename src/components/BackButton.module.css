@@ -1,13 +1,13 @@
 .button {
-    background-color: #d24379;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    font-weight: 900;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin: 10px 0;
-    text-decoration: none;
+  background-color: #d24379;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+  text-decoration: none;
 }
