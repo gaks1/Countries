@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { fetchCountry } from '../redux/Details/detailsSlice';
+import DetailsNavbar from './DetailsNavbar';
 
 const Details = () => {
   const { countryName } = useParams();
@@ -19,6 +20,8 @@ const Details = () => {
   }
   return (
     <div className="Details">
+        <h1>dvdv</h1>
+      <DetailsNavbar />
       {countrydetails.map(
         (country) => (
           <div key={country.cca3}>
