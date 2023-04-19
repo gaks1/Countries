@@ -54,7 +54,7 @@ Live demo:[Click here](https://country-details.onrender.com/)
 
 ## Video Link
 
-- [Click here]()
+- [Click here](https://www.loom.com/share/5448087729c143d380a1c494e564b6f7)
 
 ## Getting Started
 
