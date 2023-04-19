@@ -1,11 +1,7 @@
 .arrowCircleRight {
   display: flex;
   justify-content: flex-end;
-  font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' -25,
-    'opsz' 48;
+  font-weight: 300;
 }
 
 .ulCountries {
