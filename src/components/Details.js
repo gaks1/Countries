@@ -20,7 +20,7 @@ const Details = () => {
   }
   return (
     <div className="Details">
-        <h1>dvdv</h1>
+      <h1>dvdv</h1>
       <DetailsNavbar />
       {countrydetails.map(
         (country) => (
