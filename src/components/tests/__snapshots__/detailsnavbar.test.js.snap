@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsNavbar matches snapshot 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="divbutton"
+  >
+    <button
+      className="button"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="material-symbols-outlined"
+      >
+        arrow_back_ios
+      </span>
+    </button>
+  </div>
+  <div>
+    <h1
+      className="h1title"
+    >
+      DETAILS
+    </h1>
+  </div>
+</nav>
+`;
