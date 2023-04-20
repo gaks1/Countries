@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches snapshot 1`] = `
+<div
+  className="home"
+>
+  <nav
+    className="navbar"
+  >
+    <div>
+      <a
+        aria-current="page"
+        className="links active"
+        href="/"
+        onClick={[Function]}
+      >
+        Countries
+      </a>
+    </div>
+    <div
+      className="header"
+    >
+      <div
+        className="headerbutton"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="material-symbols-outlined"
+          >
+            search
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="divheader"
+  >
+    <div
+      className="divtitle"
+    >
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt=""
+          src="Global-Map-Transparent-700x416.png"
+        />
+      </div>
+      <div
+        className="textContainer"
+      >
+        <h1>
+          COUNTRIES AROUND
+          <br />
+          THE WORLD
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div
+    className="separator"
+  >
+    <p
+      className="septext"
+    >
+      LIST OF COUNTRIES
+    </p>
+  </div>
+  <ul
+    className="ulCountries"
+  >
+    <a
+      className="link"
+      href="/Details/Afghanistan"
+      onClick={[Function]}
+    >
+      <li
+        className="liCountry"
+      >
+        <span
+          className="material-symbols-outlined arrowCircleRight"
+        >
+          arrow_circle_right
+        </span>
+        <div
+          className="countryImage"
+        >
+          <img
+            alt="flag"
+            src="https://restcountries.com/data/afg.svg"
+          />
+        </div>
+        <div
+          className="countryDetails"
+        >
+          <p
+            className="liname"
+          >
+            Afghanistan
+          </p>
+          <p
+            className="licood"
+          >
+            LAT:
+             
+            20
+          </p>
+          <p
+            className="licood"
+          >
+            LONG:
+             
+            20
+          </p>
+        </div>
+      </li>
+    </a>
+    <a
+      className="link"
+      href="/Details/Albania"
+      onClick={[Function]}
+    >
+      <li
+        className="liCountry"
+      >
+        <span
+          className="material-symbols-outlined arrowCircleRight"
+        >
+          arrow_circle_right
+        </span>
+        <div
+          className="countryImage"
+        >
+          <img
+            alt="flag"
+            src="https://restcountries.com/data/alb.svg"
+          />
+        </div>
+        <div
+          className="countryDetails"
+        >
+          <p
+            className="liname"
+          >
+            Albania
+          </p>
+          <p
+            className="licood"
+          >
+            LAT:
+             
+            20
+          </p>
+          <p
+            className="licood"
+          >
+            LONG:
+             
+            20
+          </p>
+        </div>
+      </li>
+    </a>
+  </ul>
+</div>
+`;
