@@ -1,0 +1,62 @@
+.navbar {
+  background-color: #d24379;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 5% 0 5%;
+}
+
+.links {
+  color: #fff;
+  font-size: 28px;
+}
+
+.header {
+  background-color: #d24379;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.headerbutton {
+  display: flex;
+  align-items: center;
+}
+
+.headerbutton button {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d24379;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+}
+
+.headerbutton input {
+  height: 30px;
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+}
+
+.h1title {
+  color: #fff;
+}

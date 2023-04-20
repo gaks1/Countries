@@ -1,0 +1,106 @@
+.navbar {
+  background-color: #d24379;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 5% 0 5%;
+}
+
+.links {
+  color: #fff;
+  font-size: 8vw;
+  font-weight: 900;
+}
+
+.navbar h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.header {
+  background-color: #d24379;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.headerbutton {
+  display: flex;
+  align-items: center;
+}
+
+.headerbutton button {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d24379;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+}
+
+.headerbutton input {
+  height: 20px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 4vw;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 375px) {
+  .headerbutton button {
+    height: 30px;
+    width: 30px;
+  }
+
+  .header {
+    padding: 30px 0;
+  }
+
+  .links {
+    font-size: 7vw;
+  }
+
+  .headerbutton input {
+    height: 30px;
+    width: 200px;
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headerbutton button {
+    height: 30px;
+    width: 30px;
+  }
+
+  .header {
+    padding: 40px 0;
+  }
+
+  .links {
+    font-size: 5vw;
+  }
+
+  .headerbutton input {
+    height: 30px;
+    width: 400px;
+    font-size: 2vw;
+  }
+}
